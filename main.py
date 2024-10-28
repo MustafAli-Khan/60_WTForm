@@ -11,7 +11,7 @@ class LoginForm(FlaskForm):
     submit = SubmitField('Log In')
 
 app = Flask(__name__)
-app.secret_key = "I Love Anam"
+app.secret_key = "I Love Saiba"
 bootstrap = Bootstrap5(app)
 
 @app.route("/")
